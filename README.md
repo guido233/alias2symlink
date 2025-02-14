@@ -37,6 +37,11 @@ This issue does not exist if the folder structure is standardized. For instance,
 
 However, users might encounter this situation. To handle this, if there is a self-reference or a reference to a parent directory, the recursion should stop and return immediately.
 
+## To Do
+
+- Implement functionality to convert symbolic links back to macOS alias files.
+- Use different methods based on the operating system to ensure compatibility and improve the utility of links across different systems.
+
 ## License
 
 This project is licensed under the MIT License.
